@@ -49,6 +49,10 @@ The Widget Management Application is a web-based tool designed to manage and vis
 - **packery**: JavaScript layout library for draggable grid layouts
 - **react-flow-renderer**: React component for rendering flowcharts and diagrams
 - **react-zoom-pan-pinch**: React component for zooming, panning, and pinching images and elements
+  
+## Json Data
+
+- Color coding data is coming from JsonData.json file
 
 ## Usage
 
