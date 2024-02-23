@@ -1,0 +1,117 @@
+.component6 {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+}
+
+.component6>.top-section {
+    width: calc(100% - 25px - 17px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: calc(31px - 12px);
+    padding-top: 12px;
+    margin-left: 25px;
+    margin-right: 17px;
+}
+
+.component6>.line {
+    width: 100%;
+    height: 1px;
+    background-color: #E1E1E1;
+    position: relative;
+}
+
+.component6>.line::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #5E5ADB;
+    left: 0;
+    top: -1.5px;
+}
+
+.component6>.top-section>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #BBBBBB;
+}
+
+.component6>.top-section>span:first-child>span:nth-child(1) {
+    color: #5E5ADB;
+    font-weight: 600;
+}
+
+.component6>.top-section>span:last-child{
+    position: relative;
+}
+.component6>.top-section>span:last-child>span{
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.component6>.top-section>span:last-child>span:nth-child(2){
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    right: 4px;
+    top: 14px;
+    border-radius: 5px;
+    background-color: rgba(31, 31, 31, 0.84);
+    color: #e3e3e3;
+    cursor: pointer;
+    z-index: 20;
+    padding: 3px 6px;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+}
+
+.component6>.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 159px;
+    position: relative;
+}
+
+.component6>.bottom-section>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* font-family: Geist; */
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#4F4F4F;
+    width: 58px;
+    height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.component6>.bottom-section>span>span {
+    /* font-family: Geist; */
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BBBBBB;
+    width: 48px;
+    height: 19px;
+
+}

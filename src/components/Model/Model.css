@@ -1,0 +1,374 @@
+.top-model-section {
+    width: calc(100% - 62px);
+    height: calc(124px - 54px);
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 54px 31px 0 31px;
+    position: relative;
+}
+
+.top-model-section>.close-btn {
+    position: absolute;
+    top: 32.36px;
+    left: 1006.36px;
+    color: #414141;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.top-model-section>.close-btn:hover {
+    color: #5E5ADB;
+}
+
+.top-model-section>.top-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-model-section>.top-left>span:first-child {
+    height: 48px;
+    width: 48px;
+    border-radius: 6px;
+    border: 1px solid #E0DFF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-model-section>.top-left>span:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.top-model-section>.top-left>span:last-child>span {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5E5ADB;
+}
+
+.top-model-section>.top-left>span:last-child>text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #888891;
+}
+
+.top-model-section>.top-left>span>img {
+    height: auto;
+    width: 50%;
+    object-fit: cover;
+}
+
+/* top right srction css */
+
+.top-model-section>.top-right {
+    margin-top: 15px;
+    width: calc(376px - 20px);
+    height: 36px;
+    border: 1px solid #cbd5e1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+.top-model-section>.top-right>input {
+    width: 286px;
+    color: #898989;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+
+.top-model-section>.top-right>span {
+    height: 100%;
+    width: 90px;
+    color: #c6c6c6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.top-model-section>.top-right>span:hover {
+    color: #5E5ADB;
+}
+
+.botton-model-section {
+    width: calc(100%);
+    height: calc(508px - 49px);
+    overflow: hidden;
+    position: relative;
+    padding: 18px 0 31px 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.model-content {
+    width: 641px;
+    height: 456px;
+    background-color: #f8f8ff;
+    position: relative;
+    border: 1px solid #dfdef3;
+    transform-origin: 0 0;
+    overflow: hidden;
+    user-select: none;
+}
+.model-content>.color-choose-option{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+.model-content>.color-choose-option>span{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.model-content>.color-choose-option>span:nth-child(1){
+    background-color: #282828;
+}
+.model-content>.color-choose-option>span:nth-child(2){
+    background-color:#FFFFFF;
+    border: 1px solid #CECECE;
+}
+.model-content>.color-choose-option>span:nth-child(3){
+    background-color: #5E5ADB;
+}
+.model-content>.color-choose-option>.activeColor{
+    position: relative;
+}
+.model-content>.color-choose-option>.activeColor::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transform-origin: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #00000000 ;
+    border: 1.4px solid#D3D2F5 ;
+}
+.zoom-controls {
+    position: absolute;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 132px;
+    height: 33px;
+    top: 15px;
+    border-radius: 2px;
+    border: 0.5px solid #D7D7D7;
+    background-color: #f9f9f9;
+}
+
+.zoom-controls>span:first-child {
+    width: 50px;
+    height: 27px;
+    border-radius: 1px;
+    border: 0.3px solid #D7D7D7;
+    background-color: #f6f6f6;
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zoom-controls>button>span:hover {
+    background-color: #d2d2d2;
+    border-radius: 2px;
+}
+
+.zoom-controls>span:nth-child(3) {
+    width: 1px;
+    height: 20px;
+    background-color: #D7D7D7;
+}
+
+.zoom-controls>button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.zoom-controls>button>span {
+    color: #898989;
+    font-weight: 200;
+}
+
+.botton-model-section>.options-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(325px);
+    height: 456px;
+    margin-left: 27px;
+}
+
+.botton-model-section>.options-section>.options-top {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.botton-model-section>.options-section>.options-top>span {
+    font-family: Geist;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    width: calc(100%);
+    text-align: left;
+    color: #2B2B2B59;
+}
+.activeBorder{
+    border: 1.5px solid #5E5ADB !important;   
+}
+
+.botton-model-section>.options-section>.options-top>div {
+    width: calc(100% - 32px);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #E4E4E7;
+    border-radius: 8px;
+    margin-top: 11px;
+    gap: 5px;
+
+}
+
+.botton-model-section>.options-section>.options-top>div>span:first-child {
+    color: #585858;
+    font-family: Geist;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.botton-model-section>.options-section>.options-top>div>span:nth-child(2) {
+    color: #888891;
+    font-family: Geist;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.botton-model-section>.options-section>.options-top>div>.option {
+    display: flex;
+    width: auto;
+    font-size: 8px;
+    color: #71717a;
+    gap: 7.05px;
+    background-color: #F4F4F5;
+    border-radius: 5.64px;
+    height: 25.38px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 2px;
+}
+
+.botton-model-section>.options-section>.options-top>div>.option>span {
+    width: calc(45.12px - 16.92px);
+    height: calc(19.74px - 8.64px);
+    padding: 4.23px 8.46px 4.23px 8.46px;
+    border-radius: 4.23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botton-model-section>.options-section>.options-top>div>.option>span:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0.7049999833106995px 2.115000009536743px 0px #0000001A;
+    box-shadow: 0px 0.7049999833106995px 1.409999966621399px -0.7049999833106995px #0000001A;
+}
+.activeBackground{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0.7049999833106995px 2.115000009536743px 0px #0000001A;
+    box-shadow: 0px 0.7049999833106995px 1.409999966621399px -0.7049999833106995px #0000001A;
+}
+.botton-model-section>.options-section>.options-top>div>.option>span>img {
+    height: 14.1px;
+    width: 14.1px;
+    object-fit: cover;
+}
+
+.botton-model-section>.options-section>.options-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botton-model-section>.options-section>.options-bottom>span {
+    width: 59px;
+    height: 50px;
+    border-radius: 7.38px;
+    border: 1px solid #e0dff8;
+    background-color: #F8F8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botton-model-section>.options-section>.options-bottom>span>img {
+    width: calc(19.67px - 2.22px);
+    height: calc(19.67px - 2.22px);
+    padding: 1.11px;
+}
+
+.botton-model-section>.options-section>.options-bottom>button {
+    width: 125px;
+    height: 50px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid #E4E4E7;
+    color: #9f9f9f;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.botton-model-section>.options-section>.options-bottom>button:nth-child(3) {
+    color: #ffffff;
+    background-color: #5E5ADB;
+}

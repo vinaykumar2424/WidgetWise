@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Widget Management Application Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+The Widget Management Application is a web-based tool designed to manage and visualize data using customizable widgets. Users can add, customize, and delete widgets to create personalized dashboards for data analysis. The application is built using React.js and utilizes various packages for UI components and data visualization.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+1. **Widget Management**: Users can add, customize, and delete widgets to create personalized dashboards.
+2. **Customization Options**: Each widget can be customized with different colors and styles to represent data effectively.
+3. **Data Visualization**: The application provides various types of charts and components for data visualization, including line charts, pie charts, and bar graphs.
+4. **User-Friendly Interface**: The interface is designed to be intuitive, allowing users to easily navigate, add, and manage widgets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Note
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Work in progress** - Have to work on mobile view interface.
+2. **To adjest the model screen** while adding widgets, you can double click on that widget and loose grip then you can move your cursor then screen will move.
+3. **Widget screen is responsive**, you can move the position of widgets by drag and drop. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
 
-### `npm run build`
+### 1. Sidebar and Navigation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Description**: The sidebar and navigation bar provide access to different sections of the application, including adding new widgets and managing existing ones. (For now it doesn't contains the functionality. Just to show.)
+- **Functionality**: Users can navigate between different sections and access widget management features.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Widgets
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Description**: Widgets are components that display data in various formats, such as charts, graphs, and text blocks.
+- **Functionality**: Users can add, customize, and delete widgets to visualize different data sets.
 
-### `npm run eject`
+### 3. Model Component
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Description**: The Model component is a modal dialog that appears when users want to add a new widget.
+- **Functionality**: Users can select the type of widget (e.g., line chart, pie chart) and customize its appearance (e.g., colors, labels) before adding it to the dashboard.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. Delete Button
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Description**: Each widget includes a delete button for removing the widget from the dashboard.
+- **Functionality**: Clicking the delete button removes the corresponding widget from the dashboard.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Packages Used
 
-## Learn More
+- **apexcharts**: Interactive JavaScript charts library
+- **react-apexcharts**: React wrapper for ApexCharts
+- **draggabilly**: JavaScript library for draggable UI elements
+- **react-draggable**: React component for draggable elements
+- **packery**: JavaScript layout library for draggable grid layouts
+- **react-flow-renderer**: React component for rendering flowcharts and diagrams
+- **react-zoom-pan-pinch**: React component for zooming, panning, and pinching images and elements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To use the Widget Management Application, follow these steps:
 
-### Code Splitting
+1. Navigate to the homepage of the application.
+2. To add a new widget, click on the "Add Widget" button in the navigation bar.
+3. Customize the widget using the Model component, selecting the type and appearance.
+4. Click "Save" to add the widget to the dashboard.
+5. To delete a widget, use the delete button located on each widget.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Component Structure
 
-### Analyzing the Bundle Size
+![App Tree](./src/components/images/appTree.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Conclusion
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Widget Management Application provides a user-friendly interface for managing and visualizing data through customizable widgets. With its intuitive design and rich features, users can create dynamic dashboards for data analysis and decision-making. 

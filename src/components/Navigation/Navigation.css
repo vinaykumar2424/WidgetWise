@@ -1,0 +1,96 @@
+#navigation-bar{
+    width: calc(100% - 45px);
+    height: 64px;
+    background-color: #fff;
+    border-bottom:1px solid #EAECF0 ;
+    padding: 0 30px 0 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation-bar>.left-side,#navigation-bar>.right-side{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+#navigation-bar>.left-side>span,#navigation-bar>.right-side>span{
+    width: auto;
+    height: 44px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f3f2fc;
+    padding: 0 15px;
+    gap: 10px;
+}
+#navigation-bar>.left-side>span:hover,#navigation-bar>.right-side>span:hover{
+    border: 1px solid #e0dff8;
+    background-color: #f7f6fd;
+    cursor: pointer;
+}
+#navigation-bar>.left-side>span:hover span{
+    opacity: 1;
+}
+
+#navigation-bar>.left-side>span:hover text{
+    color: #5e5adb;
+}
+#navigation-bar>.left-side>span>text{
+    margin-bottom: 4px;
+}
+#navigation-bar>.left-side>span>span{
+    color: #5e5adb;
+    opacity: 0;
+}
+#navigation-bar>.left-side>span:last-child>span{
+    opacity: 1;
+}
+#navigation-bar>.left-side>span:first-child{
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
+}
+#navigation-bar>.left-side>span:last-child{
+    padding: 0;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #e0dff8;
+    background-color: #f7f6fd;
+    cursor: pointer;
+}
+#navigation-bar>.left-side>span>img{
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+}
+
+/* css for right side */
+#navigation-bar>.right-side>span:first-child{
+    border: 1px solid #e0dff8;
+    background-color: #f7f6fd;
+    cursor: pointer;
+}
+#navigation-bar>.right-side>span>text{
+    color: #5e5adb;
+    margin-bottom: 4px;
+}
+#navigation-bar>.right-side>span>span{
+    color: #5e5adb;
+    opacity: 1;
+}
+#navigation-bar>.right-side>span>img{
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+}
+#navigation-bar>.right-side>span:last-child{
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
+}

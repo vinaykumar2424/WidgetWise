@@ -1,0 +1,144 @@
+.component2{
+    width: 190px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #5E5ADB;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+}
+.component2>.top-section{
+    width: calc(100% - 25px - 17px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: calc(31px - 12px);
+    padding-top: 12px;
+    margin-left: 25px;
+    margin-right: 17px;
+}
+.component2>.line{
+    width: 100%;
+    height: 1px;
+    background-color: #E1E1E169;
+    position: relative;
+}
+.component2>.top-section>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 11px;
+    font-weight: 500;
+    color:#BBBBBB;
+}
+.component2>.top-section>span:first-child>span:nth-child(1){
+    color: #f4f4f4;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.component2>.top-section>span:first-child>span>span{
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+}
+.component2>.top-section>span:last-child{
+    position: relative;
+}
+.component2>.top-section>span:last-child>span{
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.component2>.top-section>span:last-child>span:nth-child(2){
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    right: 4px;
+    top: 14px;
+    border-radius: 5px;
+    background-color: rgba(31, 31, 31, 0.84);
+    color: #e3e3e3;
+    cursor: pointer;
+    z-index: 20;
+    padding: 3px 6px;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+}
+.component2>.bottom-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 11px;
+}
+.component2>.bottom-section>table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 25px;
+    padding-top: 14px;
+    height: 158px;
+    position: relative;
+}
+.component2>.bottom-section>table>.table-line:nth-child(1){
+    position: absolute;
+    height: 158px;
+    width: 1px;
+    top: 0;
+    left: 93px;
+    background-color: #f6f6f636;
+}
+.component2>.bottom-section>table>.table-line:nth-child(2){
+    position: absolute;
+    height: 158px;
+    width: 1px;
+    top: 0;
+    left: 131px;
+    background-color: #f6f6f636;
+}
+.component2>.bottom-section>table>thead>tr>th{
+    text-align: center;
+    color: #ABA8FF;
+    font-size: 10px;
+    font-weight: 600;
+}
+.component2>.bottom-section>table>thead>tr{
+    line-height: 16px;
+}
+.component2>.bottom-section>table>thead>tr:last-child{
+    line-height: 30px;
+}
+.component2>.bottom-section>table>thead>tr>th:first-child{
+    text-align: left;
+    color: #F1F1F2;
+    font-size: 11px;
+    font-weight: 700;
+    padding:0 15px 0 0;
+}
+.component2>.bottom-section>table>thead>tr>th:nth-child(2){
+    padding:0 8px 0 5px;
+}
+.component2>.bottom-section>table>thead>tr>td:nth-child(2){
+    padding:0 8px 0 5px;
+}
+
+.component2>.bottom-section>table>thead>tr>td{
+    text-align: left;
+    color: #FFFFFF9c;
+    font-weight: 400;
+}
+.component2>.bottom-section>table>thead>tr>td:not(:first-child){
+    text-align: center;
+}
+.component2>.bottom-section>table>thead>tr:last-child>td{
+    font-size: 12px;
+    font-weight: 600;
+    color: #F4F4F4db;
+}

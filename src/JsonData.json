@@ -1,0 +1,35 @@
+{
+  "black-box-data": {
+    "key": "black",
+    "body": "#282828",
+    "bigLine": "#f1f1f2",
+    "title": "#a0a0a0",
+    "verLabal": "#ffffff75",
+    "horiLine": "#363636",
+    "verLine": "#f6f6f612",
+    "horiLabel": "#F1F1F299",
+    "resultColor": "#F4F4F4E5"
+  },
+  "white-box-data": {
+    "key": "white",
+    "body": "#ffffff",
+    "bigLine": "#5E5ADB",
+    "title": "#bbbbbb",
+    "verLabal": "#474747a6",
+    "horiLine": "#e1e1e1",
+    "verLine": "#f6f6f650",
+    "horiLabel": "#ABA8FF",
+    "resultColor": "#393939e5"
+  },
+  "crux-box-data": {
+    "key": "crux",
+    "body": "#5E5ADB",
+    "bigLine": "#f1f1f2",
+    "title": "",
+    "verLabal": "#ffffffa6",
+    "horiLine": "#e1e1e166",
+    "verLine": "#f6f6f61a",
+    "horiLabel": "#F1F1F299",
+    "resultColor": "#F4F4F4E5"
+  }
+}
